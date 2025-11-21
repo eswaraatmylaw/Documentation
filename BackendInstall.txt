@@ -1,9 +1,9 @@
-git repository
+git repository detail
+_________________________
 
 Access to git
-----------------
-
+______________________
 
 Installation details
-----------------------
+_______________________
 
