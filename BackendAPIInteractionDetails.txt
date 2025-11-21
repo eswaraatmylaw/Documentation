@@ -15,7 +15,7 @@ GET /api/v1/judgment/{uuid} — Get judgment by UUID
 GET /api/v1/publication/{uuid} — Get publication by UUID
 GET /api/v1/bookmark/tags/all — Get all bookmark tags
 GET /api/v1/search/parametric/options/{type}/{query} — Search options
-All endpoints are protected by authentication middleware. The actual base URL depends on your environment configuration (see APP_URL in .env or app.php).
+
 
 
 
