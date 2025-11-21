@@ -1,0 +1,6 @@
+Videos & Blogs
+---------------
+Laravel Backend + Next.js Frontend: The How-To Guide
+
+https://www.youtube.com/watch?v=JNorzQLaCQc
+
