@@ -1,7 +1,9 @@
+https://herd.laravel.com/docs/macos/guides/laravel
+_____________________________________________________
+
 Herd install Procedure
 ------------
 1.  cd Herd
-laravel.com/docs/11.x#creating-a-laravel-project
 
 2. Herd composer global require laravel/installer
 
