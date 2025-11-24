@@ -13,4 +13,9 @@ Herd install Procedure
 
 5. Herd php artisan serv
 
-6. php artisan make:controller
+6. php artisan make:controller 
+
+7. composer require laravel/breeze --dev
+
+8. php artisan breeze:install 
+
