@@ -19,3 +19,16 @@ Herd install Procedure
 
 8. php artisan breeze:install 
 
+
+
+
+
+Install Frontend
+__________________
+npx create-next-app@latest
+(select dafaults    )
+
+
+
+
+
