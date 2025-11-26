@@ -4,6 +4,9 @@ Laravel Backend + Next.js Frontend: The How-To Guide
 
 https://www.youtube.com/watch?v=JNorzQLaCQc
 
+Razor Pay Integration
+
+https://www.youtube.com/watch?v=53sXabjf3j4
 
 Steps
 ______________
