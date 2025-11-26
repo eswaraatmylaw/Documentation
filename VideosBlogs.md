@@ -1,0 +1,94 @@
+Videos & Blogs
+___________________
+Laravel Backend + Next.js Frontend: The How-To Guide
+
+https://www.youtube.com/watch?v=JNorzQLaCQc
+
+Razor Pay Integration
+
+https://www.youtube.com/watch?v=53sXabjf3j4
+
+Expo App Go
+_______________
+
+https://www.youtube.com/watch?v=m1-bc53EGh8
+
+
+https://vfxtechnology.com/laravel-raozrpay-payment-integartion-guide
+
+RazorApp Payment Gateway
+_________________________
+composer create-project --prefer-dist laravel/laravel razorpay-Integration
+composer require razorpay/razorpay
+
+configure API KEYS ( get API keys from razorpay Dashboard )
+
+RAZORPAY_KEY=your_key_here
+RAZORPAY_SECRET=
+
+create a migration
+php artisan make:migration create_payments_table
+
+Edit the generated file in
+database/migrations/xxxxx_create_payments_table.php
+
+create model payment
+
+php artisan make:model payment
+Edit app/Models/Payment.php
+
+Create controller
+
+________________________________________
+php artisan make:controller RazorpayController
+
+edit app/Http/Controllers/RazorpayController.php
+
+Define routes/web.php
+
+Create views
+index.blade.php
+payment.blade.php
+
+
+
+
+Steps
+______________
+
+BackendAPP
+______________
+composer create-project laravel/laravel backend
+
+cd backend
+php artisan serve
+
+Install Breeze and Next.js
+___________________________
+
+laravel.com/docs/11.x/starter-kits#breeze-and-Next
+go to laravel.com starter kits Breeze and Next.js
+
+
+composer require laravel/breeze --dev
+
+php artisan breeze:install
+choose API only
+
+php artisan serve
+
+
+Eloquent resource
+___________________
+laravel.com/docs/11.x/eloquent-resources
+
+
+cd backend
+php artisan make:resource UserResource
+
+
+
+
+
+
+

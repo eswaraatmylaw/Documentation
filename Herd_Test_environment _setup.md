@@ -1,0 +1,34 @@
+https://herd.laravel.com/docs/macos/guides/laravel
+_____________________________________________________
+
+Herd install Procedure
+------------
+1.  cd Herd
+
+2. Herd composer global require laravel/installer
+
+3. Herd laravel new first-app ( select defaults )
+
+4. cd first-app
+
+5. Herd php artisan serv
+
+6. php artisan make:controller 
+
+7. composer require laravel/breeze --dev
+
+8. php artisan breeze:install 
+
+
+
+
+
+Install Frontend
+__________________
+npx create-next-app@latest
+(select dafaults    )
+
+
+
+
+
